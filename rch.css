@@ -1,0 +1,100 @@
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(../photos/background.jpg);
+}
+
+#wrapper{
+	width: 70%;
+	margin: 0px auto;
+}
+.navbar{
+	margin: 0px;
+	padding: 10px;
+}
+.navbar ul li{
+	display: inline-block;
+}
+.navbar-brand{
+	font-family: cursive;
+	font-size: 30px;
+	color: red;
+}
+.nav li{
+	margin-right: 20px;
+	color: black;
+	padding: 10px;
+	border: 1px solid black;
+	
+}
+.nav li:hover{
+	background-color: #1162cb; 
+	border-radius: 10%;
+	cursor: pointer;
+}
+/*.btn:hover{
+	background-color: black;
+	color: white;
+}*/
+#form{
+	padding-top: 50px;
+}
+#form p{
+	padding-bottom: 20px;
+}
+#form .form-control{
+	float: right;
+	width: 50%;
+
+}
+#{
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+#content{
+	background-color: black;
+	color: white;
+	padding-bottom: 50px;
+	
+	}
+#content-about{
+	background-color: black;
+}
+#ALGN{
+	text-align: center;
+}
+.content .p {
+	text-align: center;
+}	
+.blog h3{
+	font-size: 22px;
+	font-family: monospace;
+}
+.active,.nav li:hover{
+	background-color: #1162cb; 
+	border-radius: 10%;
+	cursor: pointer;
+}
+#pic img {
+	border-radius: 15%;
+	border: 6px solid white;
+	
+}	
+
+#pic .about-photo{
+	width: 27%;;
+	height: 150px;
+	float: left;
+}
+#pic .caption{
+	float: left;
+	height: auto;
+	width: 70%;
+}
+#pic div{
+	float: left;
+}

@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="rch.css"/>
 	
 </head>
-<body>
+<body style="background-image: url(PHOTOS/CTCTB.jpeg);">
 	
 <div id="wrapper" class="container">
 	<div class="navbar">
@@ -59,8 +59,27 @@
 	<input type="date" placeholder="">
 </p>
 <p>
-	<label> Country of birth</label>
-	<input type="text" placeholder="">
+	<label>Country</label>
+	<input list="Countryofb">
+	<datalist id="Countryofb">
+
+		<option value="COMOROS"  />
+		<option value="KENYA"  />
+		<option value="UGANDA"  />
+		<option value="TANZANIA"  />
+		<option value="CONGO"  />
+		<option value="	SUDAN"  />
+		<option value="SOUTH SUDAN"  />
+		<option value="	BURUNDI"  />
+		<option value="	RUWANDA"  />
+
+
+
+
+
+
+	</datalist>
+
 </p>
   
 <p>
@@ -68,6 +87,7 @@
 	<input type="text" placeholder="">
 </p>
 
+<p>
 	<label>Courses</label>
 	<input list="Trainings">
 	<datalist id="Trainings">
@@ -89,7 +109,7 @@
 
 	</datalist>
 
-
+</p>
 </div>				
 
 </div>
@@ -139,7 +159,7 @@
 			</p>
 			
 			
-			<p style="color: blue;">	
+			<p style="color: red;">	
 				Read back your information and check properly your email before submitting				
 			</p>
 			<button class="btn btn-primary" onclick="alert('Your information is succefully submitted') "> submit </button>
